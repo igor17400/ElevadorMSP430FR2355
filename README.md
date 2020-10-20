@@ -31,3 +31,14 @@ comandado para qualquer outro andar através dos botões (push button) e o ciclo
 possível inicializando um Timer, em modo UP, utilizando recursos de comparação e interrupção. Após interrupção, a cada 0,5s, os estados dos sensores são captados. O estado atual do Elevador é atualizado, indicando no display de sete segmentos e no LCD, por exemplo: quando o elevador está no andar 0 e o comando de destino é para o andar 2, o LCD indica que o elevador está subindo e o andar de destino (2), ao passar pelo sensor
 do andar 1 o display de sete segmentos é atualizado informando que a posição atual ou o último andar pelo qual o elevador passou foi o andar 1, após chegar no destino (2) o display também é atualizado indicando a posição 2 e o LCD indica que o estado atual é 2 e o comando de destino como “nda”, porque não há comando, em outras palavras o display de sete segmentos atualiza a posição do elevador em tempo real simulando uma
 situação real deste sistema. Após o comando realizando nos botões para partida do elevador o LCD indica se o elevador está subindo, descendo e monitora o nível de queda de tensão aplicado sobre no potenciômetro em série com o motor, são necessários dois canais de amostragem. Ambos os canais são conectadas como entradas do MSP e suas leituras são amostradas e convertidas pelo ADC, após isso são subtraídas as leituras indicando a queda de tensão. 
+
+### Vídeo
+link: https://youtu.be/6JOkYXkfy-Q
+
+### Imagens
+
+![alt text](./images/image1.jpg)
+![alt text](./images/image2.jpg)
+![alt text](./images/image3.jpg)
+![alt text](./images/image4.jpg)
+
