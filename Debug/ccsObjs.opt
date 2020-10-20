@@ -1,0 +1,1 @@
+"./adcFunctions.obj" "./configuracoes.obj" "./elevador.obj" "./i2cFunctions.obj" "./lcdFunctions.obj" "./logicaMovimentacao.obj" "./main.obj" "./uartFunctions.obj" "../lnk_msp430fr2355.cmd" -lfrwp_init.a -llibc.a 
